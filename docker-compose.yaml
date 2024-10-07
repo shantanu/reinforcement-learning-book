@@ -7,6 +7,3 @@ services:
     volumes:
       - .:/home/jovyan/work
     command: start-notebook.py --NotebookApp.token='my-token'
-
-volumes:
-  jupyter-data: {}
